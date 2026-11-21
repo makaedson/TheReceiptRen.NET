@@ -1,0 +1,8 @@
+## Visual Studio / .NET build output
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.log

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MySQL driver (ADO.NET), same package and version as the reference project. -->
+    <PackageReference Include="MySqlConnector" Version="2.6.2" />
+    <!-- Used only by PdfReportGenerator to write the monthly report as a PDF. -->
+    <PackageReference Include="PDFsharp" Version="6.2.0" />
+  </ItemGroup>
+
+</Project>
